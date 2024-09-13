@@ -11,6 +11,10 @@ Foundry consists of:
 
 ## Documentation
 
+forge create NFT1155 --rpc-url=$RPC_URL --private-key=$PRIVATE_KEY --constructor-args "<baseURI>"
+
+cast send 0x2C7C9e55FA51F025B0F3F9975cf2f4a2DB6A0E97 "mintTo(address,uint256,uint256)" 0x245E2395712F888CeD1033C924115105dC32e388 1 5 --value 40000000000000000 --rpc-url=$RPC_URL --private-key=$PRIVATE_KEY
+
 https://book.getfoundry.sh/
 
 ## Usage
