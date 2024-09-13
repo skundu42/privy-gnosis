@@ -1,7 +1,7 @@
 'use client';
 
 import {PrivyProvider} from '@privy-io/react-auth';
-import {gnosisChiado} from 'viem/chains';
+import {gnosisChiado, gnosis} from 'viem/chains';
 
 export default function Providers({children}: {children: React.ReactNode}) {
   return (
@@ -14,7 +14,7 @@ export default function Providers({children}: {children: React.ReactNode}) {
           logo: 'https://cdn.prod.website-files.com/662931fe35e0c191d1733ab9/662931fe35e0c191d1733b0f_owl-forest.png',
         },
         defaultChain: gnosisChiado,
-        supportedChains: [gnosisChiado], 
+        supportedChains: [gnosisChiado,gnosis], 
 
         embeddedWallets: {
           createOnLogin: 'users-without-wallets',
