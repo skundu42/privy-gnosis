@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.4.0",
     "@privy-io/react-auth": "^1.83.1",
     "antd": "^5.20.6",
     "next": "14.2.10",
