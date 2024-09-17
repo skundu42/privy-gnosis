@@ -16,7 +16,7 @@ import {
 import { parseEther } from 'viem';
 import TransactionHistory from './components/TransactionHistory';
 
-const { Text, Title } = Typography;
+const { Title } = Typography;
 
 export default function HomePage() {
   const { wallets } = useWallets();

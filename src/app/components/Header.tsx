@@ -1,7 +1,8 @@
 'use client';
 import { usePrivy } from "@privy-io/react-auth";
-import { Button, Card } from 'antd'; 
+import { Button } from 'antd'; 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 export default function Header() {
   const { user, login, logout } = usePrivy();
@@ -21,7 +22,13 @@ export default function Header() {
   return (
     <header style={{ backgroundColor: '#1a1a1a', padding: '20px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src="https://cdn.prod.website-files.com/662931fe35e0c191d1733ab9/662931fe35e0c191d1733b0f_owl-forest.png" alt="Logo" style={{ height: '50px', marginRight: '15px' }} />
+        <Image
+          src="https://cdn.prod.website-files.com/662931fe35e0c191d1733ab9/662931fe35e0c191d1733b0f_owl-forest.png"
+          alt="Logo"
+          width={50} 
+          height={50} 
+          style={{ marginRight: '15px' }}
+        />
         <span style={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>Gnosis</span>
       </div>
 
