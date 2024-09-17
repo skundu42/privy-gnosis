@@ -6,7 +6,7 @@ import {gnosisChiado, gnosis} from 'viem/chains';
 export default function Providers({children}: {children: React.ReactNode}) {
   return (
     <PrivyProvider
-      appId="cm0z4yln100ubmcutonnkjq24"
+      appId="<ADD APP ID HERE>"
       config={{
         appearance: {
           theme: 'dark',

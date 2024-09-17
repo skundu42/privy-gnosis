@@ -1,15 +1,21 @@
 # Privy Gnosis Implementation
 This is an example dapp on how to implement an embedded-wallet service like [Privy](https://www.privy.io/) with a simple NextJs application and make on-chain interactions.
 
+![privy gnosis](./image.png)
+
 ## Getting Started
 Install dependencies
 ```bash
 npm i
 ```
-Run a dev server
+**Please make sure you add your own Privy APP ID, otherwise the application won't work**
+
+Run dev server
 ```bash
 npm run dev
 ```
+
+**Please make sure you add your Privy APP ID, otherwise the application won't work**
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
